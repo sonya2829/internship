@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #222;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background: #20232a;
+  color: white;
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.header nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* Button */
+.button {
+  background: #61dafb;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #21a1f1;
+  color: white;
+}
+
+/* Cards */
+.cards-section {
+  padding: 40px 8%;
+  text-align: center;
+}
+
+.cards-section h2 {
+  margin-bottom: 30px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 280px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Form */
+.form-box {
+  width: 90%;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-box h2 {
+  margin-bottom: 20px;
+}
+
+.form-box form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.form-box input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.form-box button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #20232a;
+  color: white;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background: #444;
+}
+
+/* Footer */
+.footer {
+  background: #20232a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .form-box form {
+    flex-direction: column;
+  }
+}
