@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to React",
+    "category": "React",
+    "description": "Learn the basics of React, components, JSX and how React applications work."
+  },
+  {
+    "id": 2,
+    "title": "Understanding JavaScript",
+    "category": "JavaScript",
+    "description": "Explore important JavaScript concepts such as variables, functions and arrays."
+  },
+  {
+    "id": 3,
+    "title": "CSS Flexbox Guide",
+    "category": "CSS",
+    "description": "Learn how to create responsive layouts using CSS Flexbox."
+  },
+  {
+    "id": 4,
+    "title": "React Components",
+    "category": "React",
+    "description": "Understand reusable components and how to organize a React application."
+  },
+  {
+    "id": 5,
+    "title": "Responsive Web Design",
+    "category": "CSS",
+    "description": "Learn techniques for creating websites that work on different screen sizes."
+  },
+  {
+    "id": 6,
+    "title": "JavaScript Array Methods",
+    "category": "JavaScript",
+    "description": "Learn useful array methods like map, filter and reduce in JavaScript."
+  }
+]
